@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>Hello</div>
+    <div>How are you</div>
+    <br />
+    <label>Try this button: </label>
+    <button id="myBtn">Try Me!</button>
+    <script>
+      document.getElementById("myBtn").addEventListener("mouseover", addElem);
+      document.getElementById("myBtn").addEventListener("mouseout", addElem1);
+      document.getElementById("myBtn").addEventListener("click", addElem2);
+
+      function addElem() {
+        let b = document.createElement("p");
+        document.body.append(b);
+        b.innerText = "This was dynamically created by mouseover";
+        b.style.fontSize = "40px";
+        b.style.color = "red";
+      }
+
+      function addElem1() {
+        let a = document.createElement("p");
+        document.body.append(a);
+        a.innerText = "This was dynamically created by mouseout";
+        a.style.fontSize = "40px";
+        a.style.color = "red";
+      }
+
+      function addElem2() {
+        let c = document.createElement("p");
+        document.body.append(c);
+        c.innerText = "Clicked";
+        c.style.fontSize = "40px";
+        c.style.color = "red";
+      }
+    </script>
+  </body>
+</html>
