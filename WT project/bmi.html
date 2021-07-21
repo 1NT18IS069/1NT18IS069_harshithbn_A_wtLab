@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Get Fitness Workouts, Gyms, in India by Body.fit</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/calcu.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="top-bar-left">
+              <div class="text">
+                <i class="far fa-clock"></i>
+                <h2>8:00 - 9:00</h2>
+                <p>Mon - Fri</p>
+              </div>
+              <div class="text">
+                <i class="fa fa-phone-alt"></i>
+                <h2>+91 93748 34843</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="top-bar-right">
+              <div class="social">
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">GYM</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Service</a>
+            <a href="price.html" class="nav-item nav-link">Price</a>
+            <a href="bmi.html" class="nav-item nav-link active">BMI</a>
+            <a href="team.html" class="nav-item nav-link">Trainer</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="register.html" class="nav-item nav-link">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>BMI Calculator</h2>
+          </div>
+          <div class="col-12">
+            <a href="index.html">Home</a>
+            <a href="bmi.html">BMI</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="text-white jumbo-bg">
+      <div class="jumbo-wrapper">
+        <div class="jumbo-text">
+          <h2 class="calculate__bmi">
+            Calculate your <br />
+            BMI
+          </h2>
+          <p class="herop2">
+            GYM provides all kind of fitness training with modern instruments
+          </p>
+          <a
+            class="
+              d-inline-block d-md-none
+              mx-auto
+              startbtn
+              py-3
+              px-4
+              text-white
+            "
+            href="#start"
+            >START</a
+          >
+        </div>
+      </div>
+    </div>
+    <section class="w-100 sec text-white p-4 text-center">
+      <div class="mx-auto">
+        <div class="calculator-info mx-auto">
+          <h3 id="start" class="p-3 font-weight-bold">BMI CALCULATOR</h3>
+          <div class="d-lg-flex bmicalc w-100 text-left p-2">
+            <div class="w-75 weightheightwrap">
+              <div class="d-flex weightheight w-100">
+                <div class="p-2">
+                  <h5>Height</h5>
+                  <div class="form-group">
+                    <label class="d-block m-0 pb-1">Feet</label>
+                    <input class="form-control" type="number" id="feet" />
+                  </div>
+                  <div class="form-group">
+                    <label class="d-block m-0 pb-1">Inches</label>
+                    <input class="form-control" type="number" id="inches" />
+                  </div>
+                  <!-- <div class="form-group">
+                    <label class="d-block m-0 pb-1">or Centimeters</label>
+                    <input class="form-control" type="number" id="centimeters">
+                  </div> -->
+                </div>
+                <div class="p-2">
+                  <h5>Weight</h5>
+                  <!-- <div class="form-group">
+                    <label class="d-block m-0 pb-1">Pounds</label>
+                    <input class="form-control" type="number" id="pounds">
+                  </div> -->
+                  <div class="form-group">
+                    <label class="d-block m-0 pb-1"> Kilogram</label>
+                    <input class="form-control" type="number" id="kilogram" />
+                  </div>
+                  <!-- <div class="form-group">
+                    <label class="d-block m-0 pb-1 font-weight-bolder">Age</label>
+                    <input class="form-control" type="number" id="age">
+                  </div> -->
+                </div>
+              </div>
+              <div class="d-flex calcbtn p-2">
+                <div class="mr-3">
+                  <button id="calcbtn" class="btn w-100">Calculate</button>
+                </div>
+                <div class="mb-3 ml-4">
+                  <input
+                    class="w-100 form-control"
+                    type="number"
+                    id="result"
+                    placeholder="Result"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                ml-1
+                mt-lg-2
+                mx-auto
+                tablewrap
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <table class="table text-white table-bordered">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col" colspan="2">BMI categories</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Below 18.5</th>
+                    <td>Underweight</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18.5 - 24.9</th>
+                    <td>Normal</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25.0 - 29.9</th>
+                    <td>Overweight</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">30.0 and above</th>
+                    <td>Obese</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="pt-4 bmidetails px-md-5 pb-5 text-dark">
+          <p>
+            Body Mass Index (BMI) is a person's weight in kilograms divided by
+            the square of height in meters. A high BMI can be an indicator of
+            high body fatness. BMI can be used to screen for weight categories
+            that may lead to health problems but it is not diagnostic of the
+            body fatness or health of an individual.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="footer-info">
+            <a href="index.html" class="footer-logo">GYM</a>
+            <h3>Malleshwaram,Bangalore</h3>
+            <div class="footer-menu">
+              <p>+91 93748 34843</p>
+              <p>example@gmail.com</p>
+            </div>
+            <div class="footer-social">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="container copyright">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; <a href="#">GOLI SODA BOIS</a>, All Right Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="./js/calcu.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
